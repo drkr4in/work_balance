@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.body-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+button {
+  transition: 0.2s;
+}
+button:hover {
+  transition: 0.2s;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    #004ab2;
+  cursor: pointer;
+}

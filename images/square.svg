@@ -1,0 +1,7 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40 13.9V34.1C39.68 34.04 39.34 34 39 34C36.24 34 34 36.24 34 39C34 39.34 34.04 39.68 34.1 40H13.9C13.96 39.68 14 39.34 14 39C14 36.24 11.76 34 9 34C8.66 34 8.32 34.04 8 34.1V13.9C8.32 13.96 8.66 14 9 14C11.76 14 14 11.76 14 9C14 8.66 13.96 8.32 13.9 8H34.1C34.04 8.32 34 8.66 34 9C34 11.76 36.24 14 39 14C39.34 14 39.68 13.96 40 13.9Z" stroke="#0669FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 9C14 11.76 11.76 14 9 14C8.66 14 8.32 13.96 8 13.9C5.72 13.44 4 11.42 4 9C4 6.24 6.24 4 9 4C11.42 4 13.44 5.72 13.9 8C13.96 8.32 14 8.66 14 9Z" stroke="#0669FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 9C44 11.42 42.28 13.44 40 13.9C39.68 13.96 39.34 14 39 14C36.24 14 34 11.76 34 9C34 8.66 34.04 8.32 34.1 8C34.56 5.72 36.58 4 39 4C41.76 4 44 6.24 44 9Z" stroke="#0669FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 39C14 39.34 13.96 39.68 13.9 40C13.44 42.28 11.42 44 9 44C6.24 44 4 41.76 4 39C4 36.58 5.72 34.56 8 34.1C8.32 34.04 8.66 34 9 34C11.76 34 14 36.24 14 39Z" stroke="#0669FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 39C44 41.76 41.76 44 39 44C36.58 44 34.56 42.28 34.1 40C34.04 39.68 34 39.34 34 39C34 36.24 36.24 34 39 34C39.34 34 39.68 34.04 40 34.1C42.28 34.56 44 36.58 44 39Z" stroke="#0669FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
