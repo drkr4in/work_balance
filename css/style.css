@@ -1228,6 +1228,12 @@
   }
 }
 
+.order__submit:hover {
+  transition: 0.2s;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), #004ab2;
+  cursor: pointer;
+}
+
 .order-img {
   padding: 0;
 }
