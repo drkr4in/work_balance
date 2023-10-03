@@ -510,6 +510,14 @@
   flex: 1 0 0;
   align-self: stretch;
 }
+.tableBlock__table-text {
+  color: var(--text-90, rgba(0, 0, 0, 0.9));
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
 /* tableBlock */
 
 /* offer */
