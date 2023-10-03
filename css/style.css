@@ -85,6 +85,10 @@
   }
 }
 
+.menu-btn:hover {
+  background: #fff;
+}
+
 .menu__list-flex {
   display: flex;
   gap: 32px;
