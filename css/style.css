@@ -908,6 +908,9 @@
   margin-bottom: 64px;
 }
 
+.partners__list {
+  margin: 0 auto;
+}
 @media (max-width: 992px) {
   .partners__list {
     gap: 34px;
