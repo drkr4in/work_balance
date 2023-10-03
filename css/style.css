@@ -454,12 +454,8 @@
 }
 
 .infoCard__list {
+  margin: 0 auto;
   gap: 24px;
-}
-@media (max-width: 768px) {
-  .infoCard__list {
-    margin: 0 auto;
-  }
 }
 
 .infoCard__list-el {

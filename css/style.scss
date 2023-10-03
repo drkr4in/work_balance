@@ -399,9 +399,7 @@
   }
 }
 .infoCard__list {
-  @media (max-width: 768px) {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
   gap: 24px;
 }
 .infoCard__list-el {
