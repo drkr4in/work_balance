@@ -101,6 +101,8 @@
 }
 
 .menu__list-el {
+  border-bottom: 2px solid #fff;
+  transition: 0.5s;
   color: var(--text-90, rgba(0, 0, 0, 0.9));
   /* Ссылки и кнопки/14 px */
   font-family: Manrope;
@@ -108,6 +110,11 @@
   font-style: normal;
   font-weight: 600;
   line-height: 160%; /* 22.4px */
+}
+
+.menu__list-el:hover {
+  border-bottom: 2px solid #0669ff;
+  transition: 0.5s;
 }
 
 .header__number {
@@ -1450,6 +1457,7 @@
 }
 
 .footer__nav .menu__list-el {
+  border: none;
   color: var(--text-primary, #fff);
   /* Ссылки и кнопки/14 px */
   font-family: Manrope;
