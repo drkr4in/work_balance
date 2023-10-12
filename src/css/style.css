@@ -144,20 +144,24 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background: url(../images/BG1440.png);
   height: 688px;
 }
 @media (max-width: 992px) {
   .mainCard {
+    background: url(../images/BG744.png);
     background-size: cover;
   }
 }
 @media (max-width: 768px) {
   .mainCard {
+    background: url(../images/BG744.png);
     height: 500px;
   }
 }
 @media (max-width: 576px) {
   .mainCard {
+    background: url(../images/BG360.png);
     background-size: cover;
   }
 }
@@ -1269,6 +1273,12 @@
 .contact {
   min-height: 676px;
   padding: 120px 0;
+  background: url("../images/map.png");
+}
+@media (max-width: 768px) {
+  .contact {
+    background: url("../images/map744.png");
+  }
 }
 @media (max-width: 768px) {
   .contact {
