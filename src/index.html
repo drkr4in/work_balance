@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Work Balance</title>
+  </head>
+  <div class="body-wrapper">
+    <body>
+      <div class="container">
+        <header class="header row" id="header">
+          <a href="#" class="header__logo-link col-3"
+            ><img src="./images/header_logo.svg" alt="" class="header__logo"
+          /></a>
+
+          <div class="header__main header__main-flex col-9">
+            <nav class="header__mobile">
+              <ul class="header__mobile-list">
+                <li class="header__mobile-el">
+                  <a href="#infoCard" class="header__mobile-link">О нас</a>
+                </li>
+                <li class="header__mobile-el">
+                  <a href="#tableBlock" class="header__mobile-link"
+                    >Приемущества</a
+                  >
+                </li>
+                <li class="header__mobile-el">
+                  <a href="#offer" class="header__mobile-link">Тарифы</a>
+                </li>
+                <li class="header__mobile-el">
+                  <a href="#review" class="header__mobile-link">Отзывы</a>
+                </li>
+                <li class="header__mobile-el">
+                  <a href="#contact" class="header__mobile-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="menu-btn">
+              <img src="./images/menu.svg" alt="" class="menu-img" />
+            </button>
+
+            <nav class="header__nav">
+              <ul class="menu__list menu__list-flex">
+                <li class="menu__list-el">
+                  <a href="#infoCard" class="menu__list-link">О нас</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#tableBlock" class="menu__list-link">Приемущества</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#offer" class="menu__list-link">Тарифы</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#review" class="menu__list-link">Отзывы</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#contact" class="menu__list-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <a
+              href="tel:+79235556789"
+              class="header__number header__number-flex"
+              ><img src="./images/call.svg" alt="" />+7 (923) 555-67-89</a
+            >
+          </div>
+        </header>
+        <section class="mainCard row" id="mainCard">
+          <div class="mainCard-flex">
+            <h1 class="mainCard__title col-10 col-lg-6">
+              Коворкинг премиум-класса в центре Москвы
+            </h1>
+            <p class="mainCard__text col-10 col-lg-6">
+              Это не просто коворкинг. Это пространство для продуктивной работы,
+              вдохновения и общения.
+            </p>
+            <a href="#order" class="mainCard__btn col-6 col-lg-3"
+              >Оставить заявку</a
+            >
+          </div>
+        </section>
+        <section class="infoCard row" id="infoCard">
+          <div class="col-12 col-md-5 infoCard__imgBlock">
+            <img src="./images/FOTO1.png" alt="" class="infoCard-img" />
+            <img
+              src="./images/FOTO1_SMALL.png"
+              alt=""
+              class="infoCard__small-img col-12"
+            />
+          </div>
+
+          <div class="col empty"></div>
+          <div class="infoCard__mainBlock col-12 col-md-6">
+            <h2 class="infoCard__title col-12">
+              Идеальное рабочее пространство
+            </h2>
+            <p class="infoCard__text col-12">
+              В Work&Balance мы подумали о комфорте предпринимателей и
+              фрилансеров и создали место с продуманной инфраструктурой и
+              благоприятной атмосферой для развития их бизнеса. Теперь можно не
+              тратить время на поиски подходящего помещения и платить аренду за
+              ненужные метры.
+            </p>
+            <ul class="infoCard__list col-12 row">
+              <li class="infoCard__list-el col-4">
+                <h3 class="infoCard__list-title">1400 м²</h3>
+                <p class="infoCard__list-text">рабочих пространств</p>
+              </li>
+              <li class="infoCard__list-el col-4">
+                <h3 class="infoCard__list-title">4</h3>
+                <p class="infoCard__list-text">коворкинг-центра</p>
+              </li>
+              <li class="infoCard__list-el col-4">
+                <h3 class="infoCard__list-title">24/7</h3>
+                <p class="infoCard__list-text">доступ в коворкинг</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="tableBlock row" id="tableBlock">
+          <h2 class="tableBlock__title">За что любят наш коворкинг?</h2>
+          <ul class="tableBlock__table col-12 row">
+            <li class="tableBlock__table-el col-12 col-md-4">
+              <img
+                src="./images/smile.svg"
+                alt=""
+                class="tableBlock__table-img"
+              />
+              <p class="tableBlock__table-text">
+                7 переговорных комнат и зоны отдыха с оборудованными местами для
+                сна
+              </p>
+            </li>
+            <li class="tableBlock__table-el col-12 col-md-4">
+              <img
+                src="./images/people.svg"
+                alt=""
+                class="tableBlock__table-img"
+              />
+              <p class="tableBlock__table-text">
+                Вы можете арендовать кабинеты и офисы, идеально подходит для
+                команд от двух человек
+              </p>
+            </li>
+            <li class="tableBlock__table-el col-12 col-md-4">
+              <img
+                src="./images/square.svg"
+                alt=""
+                class="tableBlock__table-img"
+              />
+              <p class="tableBlock__table-text">
+                1400 кв.м рабочих пространств с Lounge- зонами и бесперебойный
+                Wi-Fi, звукоизоляция
+              </p>
+            </li>
+            <li class="w-100"></li>
+            <li class="tableBlock__table-el col-12 col-md-4">
+              <img
+                src="./images/card.svg"
+                alt=""
+                class="tableBlock__table-img"
+              />
+              <p class="tableBlock__table-text">
+                Вход по персональным карточкам, круглосуточная охрана здания
+              </p>
+            </li>
+            <li class="tableBlock__table-el col-12 col-md-4">
+              <img
+                src="./images/cake.svg"
+                alt=""
+                class="tableBlock__table-img"
+              />
+              <p class="tableBlock__table-text">
+                Кухня и бесплатные горячие напитки, выпечка и фрукты.
+              </p>
+            </li>
+            <li class="tableBlock__table-el col-12 col-md-4">
+              <img
+                src="./images/routing.svg"
+                alt=""
+                class="tableBlock__table-img"
+              />
+              <p class="tableBlock__table-text">
+                3 минуты пешком от метро до любого из центров
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="offer row" id="offer">
+          <h2 class="offer__title">Выберите идеальное рабочее пространство</h2>
+          <div class="offer__main">
+            <div class="offer__swiper col-12">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" id="swiper-slide-1">
+                  <img
+                    src="./images/FOTO4.png"
+                    alt=""
+                    class="offer__swiper-img"
+                  />
+                  <div class="offer__mainBlock">
+                    <h2 class="offer__mainBlock-title">Open Space</h2>
+                    <ul class="offer__mainBlock-list-Top">
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/profile-2user.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">
+                          1 человек
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/box-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">2 м²</p>
+                      </li>
+                    </ul>
+                    <ul class="offer__mainBlock-list-Bot">
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/broom.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Ежедневная уборка
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/wifi-square.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Высокоскоростной интернет
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/note-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Предоставление юридического адреса
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/cake_mini.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Кухня с бесплатными напитками и снеками
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/directbox-default.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Принтер/сканер
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/clock.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Круглосуточный доступ
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/car.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Парковка
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="offer__price">
+                      от 4 900 ₽ / <span class="offer__price-span">месяц</span>
+                    </div>
+                    <a href="#order" class="offer-btn">Забронировать</a>
+                  </div>
+                </div>
+                <div class="swiper-slide" id="swiper-slide-2">
+                  <img
+                    src="./images/FOTO3.png"
+                    alt=""
+                    class="offer__swiper-img"
+                  />
+                  <img
+                    src="./images/FOTO3_mini.png"
+                    alt=""
+                    class="offer__swiper-img-mini"
+                  />
+                  <div class="offer__mainBlock">
+                    <h2 class="offer__mainBlock-title">Офис Small</h2>
+                    <ul class="offer__mainBlock-list-Top">
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/profile-2user.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">
+                          2-4 человека
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/box-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">28 м²</p>
+                      </li>
+                    </ul>
+                    <ul class="offer__mainBlock-list-Bot">
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/broom.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Ежедневная уборка
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/wifi-square.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Высокоскоростной интернет
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/note-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Предоставление юридического адреса
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/cake_mini.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Кухня с бесплатными напитками и снеками
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/directbox-default.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Принтер/сканер
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/clock.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Круглосуточный доступ
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/car.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Парковка
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="offer__price">
+                      9 900 ₽ / <span class="offer__price-span">месяц</span>
+                    </div>
+                    <a href="#order" class="offer-btn">Забронировать</a>
+                  </div>
+                </div>
+                <div class="swiper-slide" id="swiper-slide-3">
+                  <img
+                    src="./images/FOTO5.png"
+                    alt=""
+                    class="offer__swiper-img"
+                  />
+                  <div class="offer__mainBlock">
+                    <h2 class="offer__mainBlock-title">Офис Medium</h2>
+                    <ul class="offer__mainBlock-list-Top">
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/profile-2user.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">
+                          4-10 человек
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/box-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">28 м²</p>
+                      </li>
+                    </ul>
+                    <ul class="offer__mainBlock-list-Bot">
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/broom.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Ежедневная уборка
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/wifi-square.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Высокоскоростной интернет
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/note-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Предоставление юридического адреса
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/cake_mini.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Кухня с бесплатными напитками и снеками
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/directbox-default.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Принтер/сканер
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/clock.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Круглосуточный доступ
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/car.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Парковка
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="offer__price">
+                      от 12 900 ₽ / <span class="offer__price-span">месяц</span>
+                    </div>
+                    <a href="#order" class="offer-btn">Забронировать</a>
+                  </div>
+                </div>
+                <div class="swiper-slide" id="swiper-slide-4">
+                  <img
+                    src="./images/FOTO6.png"
+                    alt=""
+                    class="offer__swiper-img"
+                  />
+                  <div class="offer__mainBlock">
+                    <h2 class="offer__mainBlock-title">Офис Large</h2>
+                    <ul class="offer__mainBlock-list-Top">
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/profile-2user.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">
+                          10-20 человек
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Top-el">
+                        <img
+                          src="./images/box-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Top-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Top-el-text">28 м²</p>
+                      </li>
+                    </ul>
+                    <ul class="offer__mainBlock-list-Bot">
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/broom.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Ежедневная уборка
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/wifi-square.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Высокоскоростной интернет
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/note-2.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Предоставление юридического адреса
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/cake_mini.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Кухня с бесплатными напитками и снеками
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/directbox-default.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Принтер/сканер
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/clock.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Круглосуточный доступ
+                        </p>
+                      </li>
+                      <li class="offer__mainBlock-list-Bot-el">
+                        <img
+                          src="./images/car.svg"
+                          alt=""
+                          class="offer__mainBlock-list-Bot-el-img"
+                        />
+                        <p class="offer__mainBlock-list-Bot-el-text">
+                          Парковка
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="offer__price">
+                      от 13 900 ₽ / <span class="offer__price-span">месяц</span>
+                    </div>
+                    <a href="#order" class="offer-btn">Забронировать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offer__swiper-button">
+            <svg
+              class="offer__s-button-prev"
+              style="rotate: 180deg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+            >
+              <rect width="52" height="52" rx="26" fill="#0669FF" />
+              <path
+                d="M27.5095 39.1572C27.0127 39.6305 26.2261 39.6113 25.7528 39.1144C25.2796 38.6176 25.2987 37.831 25.7955 37.3577L36.152 27.4926H11.7425C11.0563 27.4926 10.5 26.9362 10.5 26.25C10.5 25.5638 11.0563 25.0075 11.7425 25.0075H36.1522L25.7955 15.1422C25.2987 14.6689 25.2796 13.8824 25.7528 13.3855C26.2261 12.8887 27.0127 12.8695 27.5095 13.3428L39.8001 25.0504C40.0799 25.317 40.2456 25.6569 40.297 26.0105C40.312 26.088 40.32 26.1682 40.32 26.25C40.32 26.3322 40.312 26.4124 40.2968 26.4901C40.2454 26.8435 40.0798 27.1832 39.8001 27.4496L27.5095 39.1572Z"
+                fill="white"
+              />
+            </svg>
+            <svg
+              class="offer__s-button-next"
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+            >
+              <rect width="52" height="52" rx="26" fill="#0669FF" />
+              <path
+                d="M27.5095 39.1572C27.0127 39.6305 26.2261 39.6113 25.7528 39.1144C25.2796 38.6176 25.2987 37.831 25.7955 37.3577L36.152 27.4926H11.7425C11.0563 27.4926 10.5 26.9362 10.5 26.25C10.5 25.5638 11.0563 25.0075 11.7425 25.0075H36.1522L25.7955 15.1422C25.2987 14.6689 25.2796 13.8824 25.7528 13.3855C26.2261 12.8887 27.0127 12.8695 27.5095 13.3428L39.8001 25.0504C40.0799 25.317 40.2456 25.6569 40.297 26.0105C40.312 26.088 40.32 26.1682 40.32 26.25C40.32 26.3322 40.312 26.4124 40.2968 26.4901C40.2454 26.8435 40.0798 27.1832 39.8001 27.4496L27.5095 39.1572Z"
+                fill="white"
+              />
+            </svg>
+            <!-- <img src="./images/next.svg" alt="" /> -->
+          </div>
+        </section>
+        <section class="partners row" id="partners">
+          <h2 class="partners__title">Наши партнеры</h2>
+          <ul class="partners__list col-12 row">
+            <li class="partners__list-el col-12 col-lg-3">
+              <img src="./images/ozon.svg" alt="" class="partners__list-img" />
+            </li>
+            <li class="partners__list-el col-12 col-lg-3">
+              <img src="./images/sber.svg" alt="" class="partners__list-img" />
+            </li>
+            <li class="partners__list-el col-12 col-lg-3">
+              <img
+                src="./images/yandex.svg"
+                alt=""
+                class="partners__list-img"
+              />
+            </li>
+            <li class="partners__list-el col-12 col-lg-3">
+              <img
+                src="./images/tinkoff.svg"
+                alt=""
+                class="partners__list-img"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="review row" id="review">
+          <h2 class="review__title">Отзывы</h2>
+          <div class="review__mainBlock">
+            <div class="review__swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+
+                <div class="swiper-slide">
+                  <div class="swiper-slide__l">
+                    <p class="review__text">
+                      Комфортное и уютное пространство для работы, ничего не
+                      мешает. Очень быстрый и стабильный интернет. Но самый
+                      главный плюс для меня - близкое местонахождение у метро!
+                    </p>
+                    <div class="review__card">
+                      <img
+                        src="./images/maria.png"
+                        alt="maria"
+                        class="review__card-img"
+                      />
+                      <div class="review__info">
+                        <p class="review__name">Мария Петрова</p>
+                        <p class="review__job">Фрилансер</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide__r hide">
+                    <p class="review__text">
+                      Комфортное и уютное пространство для работы, ничего не
+                      мешает. Очень быстрый и стабильный интернет. Но самый
+                      главный плюс для меня - близкое местонахождение у метро!
+                    </p>
+                    <div class="review__card">
+                      <img
+                        src="./images/dmitry.png"
+                        alt="maria"
+                        class="review__card-img"
+                      />
+                      <div class="review__info">
+                        <p class="review__name">Дмитрий Юрьев</p>
+                        <p class="review__job">Фрилансер</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__l hide">
+                    <p class="review__text">
+                      Комфортное и уютное пространство для работы, ничего не
+                      мешает. Очень быстрый и стабильный интернет. Но самый
+                      главный плюс для меня - близкое местонахождение у метро!
+                    </p>
+                    <div class="review__card">
+                      <img
+                        src="./images/maria1.png"
+                        alt="maria"
+                        class="review__card-img"
+                      />
+                      <div class="review__info">
+                        <p class="review__name">Мария Петрова</p>
+                        <p class="review__job">Фрилансер</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide__r">
+                    <p class="review__text">
+                      Комфортное и уютное пространство для работы, ничего не
+                      мешает. Очень быстрый и стабильный интернет. Но самый
+                      главный плюс для меня - близкое местонахождение у метро!
+                    </p>
+                    <div class="review__card">
+                      <img
+                        src="./images/dmitry1.png"
+                        alt="maria"
+                        class="review__card-img"
+                      />
+                      <div class="review__info">
+                        <p class="review__name">Дмитрий Юрьев</p>
+                        <p class="review__job">Фрилансер</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__l">
+                    <p class="review__text">
+                      Комфортное и уютное пространство для работы, ничего не
+                      мешает. Очень быстрый и стабильный интернет. Но самый
+                      главный плюс для меня - близкое местонахождение у метро!
+                    </p>
+                    <div class="review__card">
+                      <img
+                        src="./images/maria2.png"
+                        alt="maria"
+                        class="review__card-img"
+                      />
+                      <div class="review__info">
+                        <p class="review__name">Мария Петрова</p>
+                        <p class="review__job">Фрилансер</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide__r hide">
+                    <p class="review__text">
+                      Комфортное и уютное пространство для работы, ничего не
+                      мешает. Очень быстрый и стабильный интернет. Но самый
+                      главный плюс для меня - близкое местонахождение у метро!
+                    </p>
+                    <div class="review__card">
+                      <img
+                        src="./images/dmitry2.png"
+                        alt="maria"
+                        class="review__card-img"
+                      />
+                      <div class="review__info">
+                        <p class="review__name">Дмитрий Юрьев</p>
+                        <p class="review__job">Фрилансер</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              style="rotate: 180deg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              class="s-button-prev"
+            >
+              <rect width="52" height="52" rx="26" fill="#0669FF" />
+              <path
+                d="M27.5095 39.1572C27.0127 39.6305 26.2261 39.6113 25.7528 39.1144C25.2796 38.6176 25.2987 37.831 25.7955 37.3577L36.152 27.4926H11.7425C11.0563 27.4926 10.5 26.9362 10.5 26.25C10.5 25.5638 11.0563 25.0075 11.7425 25.0075H36.1522L25.7955 15.1422C25.2987 14.6689 25.2796 13.8824 25.7528 13.3855C26.2261 12.8887 27.0127 12.8695 27.5095 13.3428L39.8001 25.0504C40.0799 25.317 40.2456 25.6569 40.297 26.0105C40.312 26.088 40.32 26.1682 40.32 26.25C40.32 26.3322 40.312 26.4124 40.2968 26.4901C40.2454 26.8435 40.0798 27.1832 39.8001 27.4496L27.5095 39.1572Z"
+                fill="white"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              class="s-button-next"
+            >
+              <rect width="52" height="52" rx="26" fill="#0669FF" />
+              <path
+                d="M27.5095 39.1572C27.0127 39.6305 26.2261 39.6113 25.7528 39.1144C25.2796 38.6176 25.2987 37.831 25.7955 37.3577L36.152 27.4926H11.7425C11.0563 27.4926 10.5 26.9362 10.5 26.25C10.5 25.5638 11.0563 25.0075 11.7425 25.0075H36.1522L25.7955 15.1422C25.2987 14.6689 25.2796 13.8824 25.7528 13.3855C26.2261 12.8887 27.0127 12.8695 27.5095 13.3428L39.8001 25.0504C40.0799 25.317 40.2456 25.6569 40.297 26.0105C40.312 26.088 40.32 26.1682 40.32 26.25C40.32 26.3322 40.312 26.4124 40.2968 26.4901C40.2454 26.8435 40.0798 27.1832 39.8001 27.4496L27.5095 39.1572Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </section>
+        <section class="order row" id="order">
+          <div class="order__mainBlock col-12 col-lg-5 row">
+            <h2 class="order__title col-12">Хотите стать нашим резидентом?</h2>
+            <p class="order__text col-12">
+              Вы можете оставить заявку в этой форме или позвонить нам, чтобы
+              утвердить время пробного дня. На месте мы проводим экскурсию по
+              рабочим пространствам. Если вас всё устраивает – подписываем
+              договор по выбранному тарифу.
+            </p>
+            <form action="" class="order__form col-12 row">
+              <input
+                type="text"
+                class="order__input col-lg-10"
+                placeholder="Ваше имя*"
+              />
+              <input
+                type="number"
+                class="order__input col-lg-10"
+                placeholder="Ваш номер телефона*"
+              />
+              <button type="submit" class="order__submit col-lg-10">
+                Оставить заявку
+              </button>
+            </form>
+          </div>
+          <div class="empty col-lg"></div>
+          <img src="./images/FOTO2.png" alt="" class="order-img col-md-6" />
+        </section>
+        <section class="contact row" id="contact">
+          <img src="./images/mapmini.png" alt="" class="contact-img" />
+          <div class="contact__empty col-12 col-md-6 col-lg-8"></div>
+          <div class="contact__mainBlock col-md-6 col-lg-4">
+            <h3 class="contact__title">Контакты</h3>
+            <ul class="contact__list">
+              <li class="contact__list-el">
+                <img
+                  src="./images/location.svg"
+                  alt=""
+                  class="contact__list-img"
+                />
+                <p class="contact__list-text">Кропоткинский пер., 64</p>
+              </li>
+              <li class="contact__list-el">
+                <img
+                  src="./images/location.svg"
+                  alt=""
+                  class="contact__list-img"
+                />
+                <p class="contact__list-text">Таганская ул., 71</p>
+              </li>
+              <li class="contact__list-el">
+                <img
+                  src="./images/location.svg"
+                  alt=""
+                  class="contact__list-img"
+                />
+                <p class="contact__list-text">Садовая-Спасская улица, 28</p>
+              </li>
+              <li class="contact__list-el">
+                <img
+                  src="./images/location.svg"
+                  alt=""
+                  class="contact__list-img"
+                />
+                <p class="contact__list-text">Овчинниковская наб., 15</p>
+              </li>
+              <li class="contact__list-el">
+                <img
+                  src="./images/callb.svg"
+                  alt=""
+                  class="contact__list-img"
+                />
+                <p class="contact__list-text">+7 (923) 555-67-89</p>
+              </li>
+              <li class="contact__list-el">
+                <img src="./images/sms.svg" alt="" class="contact__list-img" />
+                <p class="contact__list-text">workbalance@cowork.com</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <footer class="footer row">
+          <a href="#header" class="footer__logo-link col-lg-3 my-4"
+            ><img src="./images/footer_logo.svg" alt="" class="footer__logo"
+          /></a>
+          <div class="footer__main footer__main-flex col-lg-9">
+            <nav class="footer__nav footer__nav-flex">
+              <ul class="menu__list menu__list-flex">
+                <li class="menu__list-el">
+                  <a href="#infoCard" class="menu__list-link">О нас</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#tableBlock" class="menu__list-link">Приемущества</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#offer" class="menu__list-link">Тарифы</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#review" class="menu__list-link">Отзывы</a>
+                </li>
+                <li class="menu__list-el">
+                  <a href="#contact" class="menu__list-link">Контакты</a>
+                </li>
+              </ul>
+              <ul class="social__list">
+                <li class="social__list-el">
+                  <a href="#header" class="social__list-link">
+                    <img src="./images/vk.svg" alt="" class="social-img" />
+                  </a>
+                </li>
+                <li class="social__list-el">
+                  <a href="#header" class="social__list-link">
+                    <img src="./images/telegram.svg" alt="" class="social-img"
+                  /></a>
+                </li>
+                <li class="social__list-el">
+                  <a href="#header" class="social__list-link">
+                    <img src="./images/instagram.svg" alt="" class="social-img"
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </footer>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="./js/review__Swiper.js"></script>
+      <script src="./js/offer__Swiper.js"></script>
+      <script src="./js/scroll.js"></script>
+      <script src="./js/mobile_menu.js"></script>
+      <script src="./index.js"></script>
+    </body>
+  </div>
+</html>
