@@ -1,8 +1,10 @@
 const path = require("path");
 const plug = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
-  mode: "development",
+  mode: "production",
   devtool: "inline-source-map",
   entry: {
     filename: path.resolve(__dirname, "./src/index.js"),
@@ -15,24 +17,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        test: /\.(c|sc|sa)ss$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
         test: /\.svg$/,
         loader: "svg-inline-loader",
-      },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: "file-loader",
-          },
-        ],
+        type: "images/[name][ext]",
       },
     ],
   },
@@ -43,5 +34,14 @@ module.exports = {
       template: "./src/index.html",
     }),
     new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin({
+      filename: "[name].[contenthash].css",
+    }),
+    new CopyPlugin({
+      patterns: [{ from: "./src/images", to: "images" }],
+      options: {
+        concurrency: 100,
+      },
+    }),
   ],
 };

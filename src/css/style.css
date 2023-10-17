@@ -1278,11 +1278,6 @@
 @media (max-width: 768px) {
   .contact {
     background: url("../images/map744.png");
-  }
-}
-@media (max-width: 768px) {
-  .contact {
-    background: url(none);
     padding: 0;
   }
 }

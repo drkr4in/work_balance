@@ -4,15 +4,18 @@
   "description": "work balance",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack --mode production"
   },
   "author": "Dmitry",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
     "sass": "^1.69.3",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",

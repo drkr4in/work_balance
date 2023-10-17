@@ -1,0 +1,12 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/wifi-square">
+<g id="wifi-square">
+<g id="Group">
+<path id="Vector" d="M4 6.63999C6.42 4.76665 9.58 4.76665 12 6.63999" stroke="#0669FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M5.06665 8.69992C6.84665 7.32659 9.15999 7.32659 10.94 8.69992" stroke="#0669FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6.53333 10.76C7.41999 10.0733 8.57999 10.0733 9.46665 10.76" stroke="#0669FF" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector_4" d="M6.00001 14.6667H10C13.3333 14.6667 14.6667 13.3334 14.6667 10V6.00004C14.6667 2.66671 13.3333 1.33337 10 1.33337H6.00001C2.66668 1.33337 1.33334 2.66671 1.33334 6.00004V10C1.33334 13.3334 2.66668 14.6667 6.00001 14.6667Z" stroke="#0669FF" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
